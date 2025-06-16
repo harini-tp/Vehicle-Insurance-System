@@ -1,0 +1,150 @@
+/* HEADER STYLING */
+.top-nav-client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #37ab46;
+  color: white;
+  padding: 10px 20px;
+  height: 70px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo-client {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.nav-title-client {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* BODY STRUCTURE */
+.client-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-body-client {
+  display: flex;
+}
+
+.home-content-client {
+  flex: 1;
+  padding: 24px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* SECTIONS */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 40px;
+  align-items: center;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.section:hover {
+  transform: scale(1.01);
+  background-color: #f8fff9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.section.left-image {
+  flex-direction: row;
+}
+
+.section.right-image {
+  flex-direction: row-reverse;
+}
+
+.section-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.section-content p,
+.section-content ul {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #2e3b2e;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.section-content ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.section-content li {
+  margin-bottom: 8px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* TESTIMONIALS */
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.testimonial-box {
+  flex: 1;
+  min-width: 250px;
+  background-color: #e8f5e9;
+  border-left: 5px solid #37ab46;
+  padding: 20px;
+  border-radius: 10px;
+  font-style: italic;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* WELCOME MESSAGE */
+.welcome-message {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding: 12px 16px;
+  background-color: #e0f8e9;
+  border-left: 5px solid #37ab46;
+  border-radius: 8px;
+  color: #2b3d2f;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+
+

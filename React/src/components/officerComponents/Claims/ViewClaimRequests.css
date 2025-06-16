@@ -1,0 +1,65 @@
+.claims-container {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.back-button-vcr {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.claims-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.claim-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-left: 6px solid #37ab46;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.no-data {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+}
+
+.bottom-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.edit-status-btn {
+  background-color: #37ab46;
+  color: white;
+  padding: 10px 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-status-btn:hover {
+  background-color: #2d8c3a;
+}

@@ -1,0 +1,54 @@
+.premium-container {
+  max-width: 900px;
+  margin: 60px auto 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.no-data {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  padding: 20px;
+}
+
+.plans-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plan-card {
+  width: 280px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #37ab46;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(55, 171, 70, 0.3);
+  transition: transform 0.2s;
+}
+
+.plan-card:hover {
+  transform: translateY(-4px);
+}

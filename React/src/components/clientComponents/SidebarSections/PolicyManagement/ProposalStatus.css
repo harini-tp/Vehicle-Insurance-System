@@ -1,0 +1,56 @@
+.proposal-status-page {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.back-button:hover {
+  background-color: #2e913b;
+}
+
+.proposal-status-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.no-proposals {
+  text-align: center;
+}
+
+.no-proposals button {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.no-proposals button:hover {
+  background-color: #2e913b;
+}
+
+.proposal-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.proposal-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+}

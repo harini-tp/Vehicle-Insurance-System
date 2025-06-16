@@ -1,0 +1,83 @@
+.claim-status-page {
+  padding: 20px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #2e913b;
+}
+
+.claim-status-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.claim-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.claim-card {
+  background-color: #f9f9f9;
+  border-left: 5px solid #37ab46;
+  border-radius: 10px;
+  padding: 16px;
+  width: 280px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.claim-card:hover {
+  transform: scale(1.02);
+}
+
+.no-claims {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.no-claims button {
+  background-color: #37ab46;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.claim-payment-navigation {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.claim-payment-navigation p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.claim-payment-navigation button {
+  background-color: #37ab46;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.claim-payment-navigation button:hover {
+  background-color: #2e913b;
+}

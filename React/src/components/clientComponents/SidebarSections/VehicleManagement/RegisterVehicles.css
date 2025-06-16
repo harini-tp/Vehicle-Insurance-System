@@ -1,0 +1,84 @@
+.register-vehicle-page {
+  padding: 40px;
+  position: relative;
+}
+
+.register-vehicle-container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #37ab46;
+  outline: none;
+}
+
+button[type="submit"] {
+  grid-column: span 2;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 200px;
+}
+
+button[type="submit"]:hover {
+  background-color: #2e913a;
+}
+
+.message {
+  grid-column: span 2;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}

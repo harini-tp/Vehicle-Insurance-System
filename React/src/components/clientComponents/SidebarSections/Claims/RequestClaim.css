@@ -1,0 +1,126 @@
+.request-claim-page {
+  padding: 20px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #2e913b;
+}
+
+.claim-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.policy-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.policy-card {
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: 0.3s ease;
+}
+
+.policy-card:hover {
+  border-color: #37ab46;
+  background-color: #eefaf0;
+}
+
+.policy-card.selected {
+  border-left: 5px solid #37ab46;
+  background-color: #e0f5e4;
+}
+
+.claim-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.claim-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: vertical;
+  min-height: 100px;
+  line-height: 1.4;
+}
+
+.claim-form input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  max-width: 250px; 
+}
+
+.claim-form button {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.claim-form button:hover {
+  background-color: #2e913b;
+}
+
+.no-policies {
+  text-align: center;
+}
+
+.no-policies button {
+  background-color: #37ab46;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.claim-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  min-height: 100px;
+  resize: vertical;
+  line-height: 1.4;
+}
+
+.claim-form textarea:focus {
+  outline: none;
+  border-color: #37ab46;
+  box-shadow: 0 0 3px rgba(55, 171, 70, 0.5);
+}
+

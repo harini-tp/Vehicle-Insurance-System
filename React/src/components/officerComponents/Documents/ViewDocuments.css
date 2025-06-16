@@ -1,0 +1,69 @@
+.view-doc-container {
+  padding: 20px;
+}
+
+.back-btn-vd {
+  background-color: #37ab46;
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.vd-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.vd-empty-msg {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
+
+.vd-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.vd-card {
+  width: 340px;
+  border: 1px solid #ccc;
+  border-left: 6px solid #37ab46;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #fefefe;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.vd-divider {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.vd-download-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.vd-download-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.vd-download-btn {
+  background-color: #2e7d32;
+  color: white;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.my-vehicles-page {
+  position: relative;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding-top: 60px;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.my-vehicles-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.vehicle-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.vehicle-card {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 5px solid #37ab46;
+}
+
+.propose-policy-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.action-button {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.no-vehicle-text {
+  font-style: italic;
+  margin: 20px 0;
+}

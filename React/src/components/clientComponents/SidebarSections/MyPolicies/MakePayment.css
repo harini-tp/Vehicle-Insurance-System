@@ -1,0 +1,86 @@
+.make-payment-page {
+  padding: 20px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #2e913b;
+}
+
+.payment-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.proposal-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.proposal-card {
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: 0.3s ease;
+}
+
+.proposal-card:hover {
+  border-color: #37ab46;
+  background-color: #eefaf0;
+}
+
+.proposal-card.selected {
+  border-color: #37ab46;
+  background-color: #e0f5e4;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payment-form input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  max-width: 150px;
+  margin-left: 10px;
+}
+
+.payment-form button {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.payment-form button:hover {
+  background-color: #2e913b;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}

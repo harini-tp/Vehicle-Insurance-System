@@ -1,0 +1,106 @@
+.officer-container {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fa;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.officer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 12px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #37ab46;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #2e913b;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.category-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(55, 171, 70, 0.2);
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: #37ab46;
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-actions button {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.card-actions button:hover {
+  background-color: #2e913b;
+}

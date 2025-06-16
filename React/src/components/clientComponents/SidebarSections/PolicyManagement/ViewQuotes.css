@@ -1,0 +1,74 @@
+.view-quotes-page {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.back-button {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #2e913b;
+}
+
+.quotes-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quotes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.quotes-table th,
+.quotes-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.quotes-table th {
+  background-color: #f0f0f0;
+}
+
+.no-quotes {
+  text-align: center;
+}
+
+.no-quotes button {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.no-quotes button:hover {
+  background-color: #2e913b;
+}
+
+.payment-button {
+  margin-top: 20px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.payment-button:hover {
+  background-color: #2e913b;
+}

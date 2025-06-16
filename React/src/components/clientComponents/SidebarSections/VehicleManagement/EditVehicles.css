@@ -1,0 +1,77 @@
+.edit-vehicle-container {
+  max-width: 800px;
+  margin: 60px auto 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dropdown-container {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+}
+
+select {
+  padding: 6px 12px;
+  font-size: 16px;
+}
+
+.vehicle-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.form-column label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.form-actions {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+

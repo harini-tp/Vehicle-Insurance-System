@@ -1,0 +1,96 @@
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4fdf5;
+}
+
+.signup-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-box h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 24px;
+  margin-bottom: 15px;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  padding: 0 8px; /* ✅ Adds inner padding for spacing from edges */
+}
+
+.signup-input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #aad4af;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.signup-button {
+  padding: 10px 20px;
+  background-color: #2e933c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  width: fit-content; /* ✅ Makes the button only as wide as its content */
+  align-self: center; /* ✅ Centers the button in the form */
+}
+
+.signup-button:hover {
+  background-color: #247730;
+}
+
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #2e933c;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+
+.popup-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #2e933c;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  z-index: 1000;
+}

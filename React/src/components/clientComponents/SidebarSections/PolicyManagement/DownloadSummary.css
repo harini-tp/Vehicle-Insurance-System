@@ -1,0 +1,89 @@
+.download-container {
+  max-width: 850px;
+  margin: 60px auto 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #666;
+}
+
+.proposal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.proposal-card {
+  background-color: #f7f7f7;
+  padding: 15px;
+  width: 260px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #ccc;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.proposal-card:hover {
+  border-color: #37ab46;
+}
+
+.proposal-card.selected {
+  border: 2px solid #37ab46;
+  background-color: #e8ffe8;
+}
+
+.download-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #37ab46;
+  color: white;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.no-proposals {
+  text-align: center;
+  padding: 30px;
+}
+
+.no-proposals button {
+  margin-top: 12px;
+  background-color: #37ab46;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.edit-user-page {
+  padding: 20px;
+}
+
+.back-button-inside {
+  background-color: #37ab46;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.back-button-inside:hover {
+  background-color: #2e913b;
+}
+
+.edit-user-container {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.edit-user-form {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-column label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+}
+
+.form-submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-submit button {
+  background-color: #37ab46;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-submit button:hover {
+  background-color: #2e913b;
+}

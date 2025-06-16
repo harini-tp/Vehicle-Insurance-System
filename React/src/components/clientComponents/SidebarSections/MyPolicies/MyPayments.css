@@ -1,0 +1,64 @@
+.my-payments-page {
+  padding: 20px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #2e913b;
+}
+
+.payments-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.payment-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.payment-card {
+  width: 280px;
+  background-color: #f9f9f9;
+  border-left: 6px solid #37ab46;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.payment-card:hover {
+  background-color: #f1fdf2;
+}
+
+.no-payments {
+  text-align: center;
+}
+
+.no-payments button {
+  margin-top: 12px;
+  background-color: #37ab46;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.no-payments button:hover {
+  background-color: #2e913b;
+}
